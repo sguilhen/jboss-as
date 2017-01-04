@@ -274,6 +274,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setAccessConstraints(SensitiveTargetAccessConstraintDefinition.SECURITY_REALM_REF)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -283,6 +284,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setDefaultValue(new ModelNode(false))
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -292,6 +294,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setValidator(VALIDATOR)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -301,6 +304,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setValidator(VALIDATOR)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -311,6 +315,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setValidator(new EnumValidator<IORTransportConfigValues>(IORTransportConfigValues.class, true, true,
                     IORTransportConfigValues.NONE, IORTransportConfigValues.SUPPORTED))
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -320,6 +325,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setValidator(VALIDATOR)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -329,6 +335,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setValidator(VALIDATOR)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     @Deprecated
@@ -338,6 +345,7 @@ class IIOPRootDefinition extends PersistentResourceDefinition {
             .setFlags(AttributeAccess.Flag.RESTART_ALL_SERVICES)
             .setValidator(VALIDATOR)
             .setAllowExpression(true)
+            .setDeprecated(IIOPExtension.VERSION_1)
             .build();
 
     //ior as context attributes
